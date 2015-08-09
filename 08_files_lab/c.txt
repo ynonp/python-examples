@@ -1,0 +1,12 @@
+one
+red
+two
+blue
+three
+green
+four
+white
+orange
+blue
+cyan
+magenta
