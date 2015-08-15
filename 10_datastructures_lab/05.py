@@ -13,15 +13,9 @@ words = {}
 with open(fname, 'r') as f:
     for line in f:
         word = line.rstrip()
-        key = frozenset(word)
+        key = tuple(sorted(word))
+
         words.setdefault(key, []).append(word)
 
-        # Same as:
-        # if words.has_key(key):
-        #     words[key].append(word)
-        # else:
-        #     words[key] = [word]
-
-for (key, val) in words.items():
-    print val
+print words.values()
 
