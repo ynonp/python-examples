@@ -11,6 +11,7 @@ hosts = {}
 
 with open("hosts", "r") as f:
     for line in f:        
+        if not "=" in line: continue
         (hostname, ip) = line.rstrip().split('=')
         hosts[hostname] = ip
 
