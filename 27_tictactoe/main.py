@@ -31,6 +31,10 @@ if __name__ == "__main__":
                 print "Game Over, %s won" % g.winner.name
                 break
 
+            if g.tie():
+                print "Game Over, it's a tie"
+                break
+
         except ValueError as e:
             print "Expected move format: row col"
 

@@ -8,6 +8,8 @@ class GameException(Exception):pass
 class InvalidMove(GameException):pass
 class GameOver(GameException):pass
 
+BLANK = '.'
+
 WINNERS = [
     r'([^.])..\1..\1..',
     r'.([^.])..\1..\1.',
@@ -35,7 +37,7 @@ class Game(object):
     def val(self, row, col):
         p = self.data[row][col]
         if p is None:
-            return "."
+            return BLANK
         else:
             return p.val
 
@@ -89,4 +91,7 @@ class Game(object):
             if match is not None:
                 self.winner = self.current_player
                 
+
+    def tie(self):
+        return BLANK not in str(self)
 

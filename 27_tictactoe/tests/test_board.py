@@ -20,10 +20,21 @@ class TestGameplay(unittest.TestCase):
         with self.assertRaises(board.InvalidMove):
             self.g.play(0,0)
 
+    def test_false_tie(self):
+        # board is empty, no tie
+        self.assertFalse(self.g.tie())
 
-
-
-
+    def test_true_tie(self):
+        self.g.play(0,0)
+        self.g.play(0,1)
+        self.g.play(0,2)
+        self.g.play(1,1)
+        self.g.play(1,0)
+        self.g.play(1,2)
+        self.g.play(2,1)
+        self.g.play(2,2)
+        self.g.play(2,0)
+        self.assertTrue(self.g.tie())
 
 
 class TestWin(unittest.TestCase):
