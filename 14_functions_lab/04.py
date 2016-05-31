@@ -8,5 +8,5 @@ def longer_than(minlen, *args):
     return [word for word in args if len(word) > minlen]
 
 
-print longer_than(4, "foo", "bar", "fantastic", "python", "abc")
+print(longer_than(4, "foo", "bar", "fantastic", "python", "abc"))
 

@@ -9,7 +9,7 @@ import itertools
 import sys
 
 if len(sys.argv) != 4:
-    print "Usage: %s <file1> <file2> <file3>" % sys.argv[0]
+    print("Usage: %s <file1> <file2> <file3>" % sys.argv[0])
     sys.exit(1)
 
 (_,file1,file2,file_out) = sys.argv
@@ -17,6 +17,6 @@ if len(sys.argv) != 4:
 with open(file1,"r") as fin1:
     with open(file2,"r") as fin2:
         with open(file_out,"w") as fout:
-            for (l1,l2) in itertools.izip_longest(fin1, fin2, fillvalue=""):
+            for (l1,l2) in itertools.zip_longest(fin1, fin2, fillvalue=""):
                 fout.write(l1 + l2)
 

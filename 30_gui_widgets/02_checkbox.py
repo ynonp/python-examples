@@ -1,7 +1,7 @@
-import Tkinter as tk
+import tkinter as tk
 
 def toggle():
-    print "Toggle. New state = %d" % s.get()
+    print("Toggle. New state = %d" % s.get())
 
 root = tk.Tk()
 s = tk.IntVar()

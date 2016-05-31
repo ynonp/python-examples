@@ -17,10 +17,10 @@ while True:
         sqrt = math.sqrt(val)
 
     except ValueError as e:
-        print "Sorry try again"
+        print("Sorry try again")
 
     else:
-        print "sqrt(%f) = %f" % (val, sqrt)
+        print("sqrt(%f) = %f" % (val, sqrt))
 
 
 

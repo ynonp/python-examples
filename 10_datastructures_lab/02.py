@@ -7,5 +7,5 @@ import sys
 
 s = set()
 
-print s.union(sys.argv[1:])
+print(s.union(sys.argv[1:]))
 

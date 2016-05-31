@@ -8,6 +8,6 @@ matching a shell glob pattern
 import glob
 
 files = glob.glob("*.txt")
-print files
+print(files)
 
 

@@ -10,7 +10,7 @@ class App(object):
         self.btn["text"] = "Ouch!"
         self.txt["text"] = "Ouch!"
 
-import Tkinter as tk
+import tkinter as tk
 
 root = tk.Tk()
 app = App(root)

@@ -4,7 +4,7 @@ happen to them.
 For example the entry also creates a <<Copy>> 
 event when a user clicks Ctrl+C
 """
-import Tkinter as tk
+import tkinter as tk
 
 class App:
     def __init__(self):

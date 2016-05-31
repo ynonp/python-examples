@@ -5,6 +5,7 @@ using the function.
 
 For example reduce [1,2,3,4] with a + yields 10
 """
+from functools import reduce
 
 s = reduce(
         lambda acc,val: acc + val,
@@ -14,6 +15,6 @@ longest = reduce(
         lambda acc,val: acc if len(acc) > len(val) else val,
         "baby let me follow you down".split())
 
-print s
-print longest
+print(s)
+print(longest)
 

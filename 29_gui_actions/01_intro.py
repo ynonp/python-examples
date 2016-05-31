@@ -9,7 +9,7 @@ Adding actions
 def onclick():
     btn["text"] = "Ouch!"
 
-import Tkinter as tk
+import tkinter as tk
 
 root = tk.Tk()
 

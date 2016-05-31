@@ -16,16 +16,16 @@ pwd = {
     'orange'  : 'orange',
 }
 
-print "Please type in your name"
-name = raw_input()
+print("Please type in your name")
+name = input()
 
-print "What's the password?"
-password = raw_input()
+print("What's the password?")
+password = input()
 
-if pwd.has_key(name) and pwd[name] == password:
-    print "Welcome, Master"
+if name in pwd and pwd[name] == password:
+    print("Welcome, Master")
 else:
-    print "INTRUDER ALERT"
+    print("INTRUDER ALERT")
 
 
 

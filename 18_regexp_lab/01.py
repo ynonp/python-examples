@@ -25,9 +25,9 @@ with open(props, 'r') as f:
             val = m.group(2)
             data[k] = val
 
-print "Debug", data
-print "---"
+print("Debug", data)
+print("---")
 
 for name in keys:
-    print data[name]
+    print(data[name])
 

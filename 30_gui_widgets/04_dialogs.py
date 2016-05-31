@@ -1,5 +1,5 @@
-import Tkinter as tk
-import tkFileDialog
+import tkinter as tk
+import tkinter.filedialog
 
 class App:
     def __init__(self):
@@ -12,7 +12,7 @@ class App:
         self.top.pack()
 
     def select_file(self):
-        fname = tkFileDialog.askopenfilename(filetypes=[("Text Files", "*.txt"), ("Python files", "*.py")])
+        fname = tkinter.filedialog.askopenfilename(filetypes=[("Text Files", "*.txt"), ("Python files", "*.py")])
         with open(fname, "r") as f:
             txt = f.read()
             self.text.delete(1.0, tk.END)

@@ -16,8 +16,8 @@ try:
             count += 1
 
 except IOError as e:
-    print "Failed to open file.", e
+    print("Failed to open file.", e)
 
 else:
-    print "File had %d lines" % count
+    print("File had %d lines" % count)
 

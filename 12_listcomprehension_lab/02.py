@@ -8,7 +8,7 @@ import sys
 
 (_, w1, w2) = sys.argv
 
-print set(w1).intersection(set(w2))
+print(set(w1).intersection(set(w2)))
 
-print [l for l in w1 for g in w2 if l == g]
+print([l for l in w1 for g in w2 if l == g])
 

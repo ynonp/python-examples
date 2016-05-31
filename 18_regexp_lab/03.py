@@ -21,9 +21,9 @@ import re
 
 with open(csv, 'r') as f:
     for line in f:
-        print re.sub(r'([^,]+),([^,]+)',
+        print(re.sub(r'([^,]+),([^,]+)',
             lambda m: m.group(2) + ',' + m.group(1),
-            line),
+            line), end="")
 
 
 

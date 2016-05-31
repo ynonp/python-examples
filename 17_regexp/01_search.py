@@ -13,7 +13,7 @@ def istitle(text):
 def get_key_value(text):
     m = re.search(r'(\w+)\s*=\s*(\w+)', text)
     if m is not None:
-        print "[%s] => [%s] " % (m.group(1),  m.group(2))
+        print("[%s] => [%s] " % (m.group(1),  m.group(2)))
 
 while True:
     line = sys.stdin.readline()

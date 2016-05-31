@@ -6,7 +6,7 @@ import re
 
 class InvalidImageExt(Exception): pass
 
-class ImageFile(object):
+class ImageFile:
     def __init__(self, fname):
         if re.search(r'([.]png|[.]jpe?g|[.]gif)$', fname):
             self.name = fname

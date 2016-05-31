@@ -17,12 +17,12 @@ def to_underscore(text):
             text)
 
 
-print toCamelCase('welcome')
-print toCamelCase('hello_world')
-print toCamelCase('get_name')
-print toCamelCase('no_more_shall_we_part')
+print(toCamelCase('welcome'))
+print(toCamelCase('hello_world'))
+print(toCamelCase('get_name'))
+print(toCamelCase('no_more_shall_we_part'))
 
-print to_underscore('welcome')
-print to_underscore('helloWorld')
-print to_underscore('getName')
-print to_underscore('noMoreShallWePart')
+print(to_underscore('welcome'))
+print(to_underscore('helloWorld'))
+print(to_underscore('getName'))
+print(to_underscore('noMoreShallWePart'))

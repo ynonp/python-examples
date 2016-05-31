@@ -12,8 +12,8 @@ import re
 text = "baby let me     follow you down"
 
 
-print re.sub(r'\s+',' ', text)
+print(re.sub(r'\s+',' ', text))
 
-print re.sub(r'\b([a-z])', lambda m: m.group(1).upper(), text)
+print(re.sub(r'\b([a-z])', lambda m: m.group(1).upper(), text))
 
 

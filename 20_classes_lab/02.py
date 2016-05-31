@@ -11,5 +11,5 @@ class MyCounter(object):
 for _ in range(10):
     c1 = MyCounter()
 
-# should print 10
-print MyCounter.count
+# should print(10)
+print(MyCounter.count)

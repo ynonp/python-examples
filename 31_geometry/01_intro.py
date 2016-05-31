@@ -5,7 +5,7 @@ Geometry Management
 2. grid
 """
 
-import Tkinter as tk
+import tkinter as tk
 
 root = tk.Tk()
 

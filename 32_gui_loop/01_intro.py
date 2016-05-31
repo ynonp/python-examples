@@ -1,7 +1,7 @@
 """
 Creating buttons in a loop
 """
-import Tkinter as tk
+import tkinter as tk
 
 def set_color(clr):
     f["background"] = clr

@@ -17,7 +17,7 @@ class App(object):
         self.txt["text"] = self.entry_text.get()
         
 
-import Tkinter as tk
+import tkinter as tk
 
 root = tk.Tk()
 app = App(root)

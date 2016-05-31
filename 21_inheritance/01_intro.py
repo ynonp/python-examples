@@ -7,7 +7,7 @@ Reusing code between classes with inheritance
 
 import os
 
-class FSThing(object):
+class FSThing:
     def __init__(self, path):
         self.path = path
 

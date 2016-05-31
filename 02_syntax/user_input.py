@@ -2,9 +2,9 @@
 Reading user input demo
 """
 
-print "Type in your name:"
-name = raw_input()
+print("Type in your name:")
+name = input()
 
-print "Hello", name
+print("Hello", name)
 
 

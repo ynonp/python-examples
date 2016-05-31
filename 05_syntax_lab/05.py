@@ -8,10 +8,10 @@ from random import randint
 while True:
     cand = randint(1, 9999999)
 
-    if cand % 7 != 0: continue
+    if cand %  7 != 0: continue
     if cand % 13 != 0: continue
     if cand % 15 != 0: continue
 
-    print "Number is:", cand
+    print("Number is:", cand)
     break
 

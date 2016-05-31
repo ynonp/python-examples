@@ -1,10 +1,10 @@
 """
 Count how many letters in a word
-and print them sorted
+and print(them sorted)
 """
 
-print "Please type in a word"
-word = raw_input()
+print("Please type in a word")
+word = input()
 
 freq = {}
 
@@ -13,8 +13,8 @@ for letter in word:
     freq[letter] = count + 1
 
 
-print freq
+print(freq)
 
 for k in sorted(freq, key=freq.get, reverse=True):
-    print "%s => %d" % (k, freq[k])
+    print("%s => %d" % (k, freq[k]))
 

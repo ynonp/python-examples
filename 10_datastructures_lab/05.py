@@ -17,5 +17,5 @@ with open(fname, 'r') as f:
 
         words.setdefault(key, []).append(word)
 
-print words.values()
+print(words.values())
 

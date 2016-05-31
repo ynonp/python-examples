@@ -9,8 +9,8 @@ def print_in_matrix(f):
     def wrapped(x,y):
         for i in range(x):
             for j in range(y):
-                print f(i,j),
-            print
+                print(f(i,j), end=" ")
+            print()
 
     return wrapped
 
@@ -32,8 +32,8 @@ print_mul_in_matrix(5,5)
 print_sum_in_matrix(5,5)
 
 
-print sum.__name__
-print print_mul_in_matrix.__name__
+print(sum.__name__)
+print(print_mul_in_matrix.__name__)
 
 
 

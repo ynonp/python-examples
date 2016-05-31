@@ -15,5 +15,5 @@ z = 25
 
 total = x + y + z
 
-print total
+print(total)
 

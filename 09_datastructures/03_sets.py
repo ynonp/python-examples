@@ -1,13 +1,13 @@
 """
-Print only unique words from sys.argv
+print(only unique words from sys.argv)
 """
 
 import sys
 
 s = set(sys.argv[1:])
 
-print s
+print(s)
 
-for i in s: print i,
+for i in s: print(i,)
 
 

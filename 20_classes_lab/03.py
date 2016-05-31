@@ -25,7 +25,7 @@ class Widget(object):
             if w.built : continue
             w.build()
 
-        print self.name
+        print(self.name)
         self.built = True
 
 

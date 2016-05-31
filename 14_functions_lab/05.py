@@ -16,4 +16,4 @@ def groupby(f, words):
 
     return res
 
-print groupby(lambda s: frozenset(s), ['add', 'dad', 'help','rome', 'more'])
+print(groupby(lambda s: frozenset(s), ['add', 'dad', 'help','rome', 'more']))

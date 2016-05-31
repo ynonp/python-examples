@@ -8,17 +8,17 @@ Exceptions in python
 
 def foo():
     bar()
-    print "hello"
+    print("hello")
 
 def bar():
-    print "bar start"
+    print("bar start")
     res = 1/0
-    print "bye bye"
+    print("bye bye")
 
 
 
-print "welcome master"
+print("welcome master")
 foo()
 
-print "the end"
+print("the end")
 

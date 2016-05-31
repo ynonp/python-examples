@@ -3,7 +3,7 @@ Grid geometry manager is
 activated by the function grid(row,col)
 """
 
-import Tkinter as tk
+import tkinter as tk
 
 root = tk.Tk()
 

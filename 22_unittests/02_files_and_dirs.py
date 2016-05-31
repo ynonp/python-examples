@@ -3,7 +3,7 @@ import unittest
 import tempfile
 import shutil
 
-class FSThing(object):
+class FSThing:
     def __init__(self, path):
         self.path = path
 
@@ -25,11 +25,11 @@ class TestFS(unittest.TestCase):
     
     def setUp(self):
         self.dir = tempfile.mkdtemp()
-        print "Created dir: " , self.dir
+        print("Created dir: " , self.dir)
 
     def tearDown(self):
         shutil.rmtree(self.dir)
-        print "Deleted dir: ", self.dir
+        print("Deleted dir: ", self.dir)
 
     def test_rename(self):
         f = File(self.dir + '/test.txt')

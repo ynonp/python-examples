@@ -6,7 +6,7 @@ Graphical User Interface with Tkinter
 3. Packing multiple widgets
 """
 
-import Tkinter as tk
+import tkinter as tk
 
 root = tk.Tk()
 

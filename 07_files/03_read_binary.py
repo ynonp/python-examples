@@ -10,8 +10,10 @@ import binascii
 
 with open("/bin/ls", "rb") as fin:
     buf = fin.read(bufsize)
-    while buf != "":
-        print binascii.hexlify(buf)
+#
+# can also use: buf != bytes()
+    while buf != b"":
+        print(binascii.hexlify(buf))
         buf = fin.read(bufsize)
 
 

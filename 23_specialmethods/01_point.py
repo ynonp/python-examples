@@ -4,7 +4,7 @@
 3. Other special methods
 """
 
-class Point(object):
+class Point:
     def __init__(self, x, y):
         self.x = x
         self.y = y
@@ -28,11 +28,11 @@ p = Point(10,10)
 q = Point(10,10)
 
 if p != q:
-    print "Wow p == q"
+    print("Wow p == q")
 else:
-    print "Oh no..."
+    print("Oh no...")
 
 if p is q:
-    print "p and q are the same object"
+    print("p and q are the same object")
 
 

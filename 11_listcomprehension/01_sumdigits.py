@@ -12,9 +12,9 @@ n = 12345
 str(n)
 "12345"
 
-print sum([int(x) for x in str(n)])
+print(sum([int(x) for x in str(n)]))
 
 numbers = range(100)
-print sum(numbers)
-print sum([x * x for x in numbers])
+print(sum(numbers))
+print(sum([x * x for x in numbers]))
 

@@ -4,7 +4,7 @@ developer to call row/column configure
 and mark cells as sticky
 """
 
-import Tkinter as tk
+import tkinter as tk
 
 root = tk.Tk()
 

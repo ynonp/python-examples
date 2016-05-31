@@ -47,7 +47,7 @@ class Game(object):
         # return the next cycled item from the array
         self.players = cycle([p1, p2])
 
-        self.current_player = self.players.next()
+        self.current_player = next(self.players)
         self.clearboard()
 
     def clearboard(self):
@@ -79,7 +79,7 @@ class Game(object):
         self.checkwinner()
 
         # Set next player for the next round
-        self.current_player = self.players.next()
+        self.current_player = next(self.players)
 
     def checkwinner(self):
         # The list of winning moves is saved

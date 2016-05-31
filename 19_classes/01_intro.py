@@ -5,18 +5,18 @@
 4. Private members
 """
 
-class Light(object):
+class Light:
     def __init__(self, val=False):
         self._on = val
 
     def lights_on(self):
         if not self._on:
-            print "Lights on"
+            print("Lights on")
             self._on = True
 
     def lights_off(self):
         if self._on:
-            print "Lights off"
+            print("Lights off")
             self._on = False
 
 l = Light()
