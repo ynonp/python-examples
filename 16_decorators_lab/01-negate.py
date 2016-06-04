@@ -6,8 +6,8 @@ from functools import wraps
 
 def negate(f):
     @wraps(f)
-    def wrapper(*args):
-        return not f(*args)
+    def wrapper(*args, **kwargs):
+        return not f(*args, **kwargs)
         
     return wrapper
 
