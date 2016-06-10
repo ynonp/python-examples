@@ -1,13 +1,11 @@
-""" While demo"""
+""" Control Flow:
+        If
+        While
+        For  
+"""           
 
+line = raw_input()
 
-print "Please type in a number"
-num = int(raw_input())
-
-while num % 2 == 0:
-    print "Bravo, it's an even number"
-    print "Please type in another number"
-    num = int(raw_input())
-
-print "The End"
-
+while line.startswith('a'):
+    print "I don't like a'", line
+    line = raw_input()

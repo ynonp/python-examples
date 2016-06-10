@@ -1,19 +1,14 @@
-"""
-For loops demo
-- Iterate over a sequence
-- Iterate over numbers
-"""
+""" Control Flow:
+        If
+        While
+        For  
+"""           
 
-sentence = "Got two reasons why I cry"
-words = sentence.split()
+sum = 0
 
-for word in words:
-    print "The word is: ", word, "And its length:", len(word)
-
-total = 0
-for i in range(101):
-    total += i
-
-print "1 + 2 + 3 + 4 + ... + 100 = ", total
-
-
+for number in range(0, 101, 2):
+    sum += number
+    
+print "sum =", sum
+     
+     

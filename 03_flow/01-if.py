@@ -1,18 +1,15 @@
-"""
-1. If Conditions
-2. While loops
-3. For loops
-"""
+""" Control Flow:
+        If
+        While
+        For  
+"""           
 
 print "Please type in a number"
-num = int(raw_input())
+number = int(raw_input())
 
-if num % 2 == 0:
-    print "Bravo You typed in an even number"
-elif num % 3 == 0:
-    print "You typed a number that divides by 3"
+if number % 2 == 0:
+    print "Even"
+elif number % 3 == 0:
+    print "Divides in 3"    
 else:
-    print "Oh my, that was not an even number"
-
-if num % 5 == 0: print "Number divides by 5"
-
+    print "Odd"
