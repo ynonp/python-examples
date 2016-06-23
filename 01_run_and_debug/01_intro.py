@@ -1,13 +1,19 @@
+""" Welcome To Python
+
+A python program is just a text file.
+We run python from command line with:
+python program.py
+
+We can also run the program in a built-in python
+debugger with:
+python -mpdb program.py
 """
-A Python program is just a normal text file
-ending with .py
 
-You can edit it with any text editor.
-"""
+# python ignores this one
 
-print("Welcome to Python!")
-x = 10
-y = 20
-z = x + y
+print("Tell me your name")
+name = input()
 
-print("Total 10 + 20 =", z)
+for count in range(10):
+    print("Welcome", name)
+
