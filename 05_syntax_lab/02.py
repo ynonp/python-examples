@@ -1,7 +1,7 @@
 """
-Write a Python program that randomizes 7 numbers
-and prints their sum total.
-If the sum is divisable by 7, also print the word "Boom"
+Write a Python program that generates 7 random integers
+between 1 and 100, and prints their sum.
+If the sum is divisible by 7, also print the word "Boom".
 """
 
 from random import randint
