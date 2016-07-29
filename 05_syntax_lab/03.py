@@ -7,7 +7,7 @@ The result should be: 14
 
 from random import randint
 
-num = randint(1,9999)
+num = randint(1,10000)
 print "Starting with: %d" % num
 
 # Numeric calculation

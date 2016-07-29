@@ -93,5 +93,5 @@ class Game(object):
                 
 
     def tie(self):
-        return BLANK not in str(self)
+        return BLANK not in str(self) and self.winner is None
 

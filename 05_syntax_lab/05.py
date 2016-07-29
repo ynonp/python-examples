@@ -6,7 +6,7 @@ until it finds a number that is divisable by: 7, 13 and 15
 from random import randint
 
 while True:
-    cand = randint(1, 9999999)
+    cand = randint(1, 1000000)
 
     if cand % 7 != 0: continue
     if cand % 13 != 0: continue

@@ -32,8 +32,8 @@ class TestGameplay(unittest.TestCase):
         self.g.play(1,0)
         self.g.play(1,2)
         self.g.play(2,1)
-        self.g.play(2,2)
         self.g.play(2,0)
+        self.g.play(2,2)
         self.assertTrue(self.g.tie())
 
 
