@@ -1,6 +1,6 @@
 """
-Write a program that randomizes integers in a loop
-until it finds a number that is divisable by: 7, 13 and 15
+Write a program that generates random integers in a loop
+until it finds a number that is divisible by: 7, 13, and 15.
 """
 
 from random import randint
